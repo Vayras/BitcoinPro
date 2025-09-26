@@ -432,6 +432,7 @@ body {
 /* Component: Hero Copy - Target: All Devices */
 .hero-copy {
  display: flex;
+margin-top: 0px;
 max-width: 796px;
 flex-direction: column;
 justify-content: center;
@@ -497,11 +498,18 @@ gap: var(--Spacing-L2, 48px);
 /* Component: Hero Section - Target: Large Tablet (1030px to 776px) */
 @media (max-width: 1030px) and (min-width: 776px) {
   .hero-section {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: calc(140px + var(--navbar-height-tablet)) 32px 200px;
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
+  }
+
+  .hero-copy{
+    margin-top: 0px;
+    align-items: center;
   }
 
   .hero-content {
@@ -533,12 +541,13 @@ gap: var(--Spacing-L2, 48px);
 /* Component: Hero Section - Target: Tablet (775px to 769px) */
 @media (max-width: 775px) and (min-width: 769px) {
   .hero-section {
-    
     padding: calc(160px + var(--navbar-height-tablet)) 48px 240px;
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
   }
+
+
 
   .hero-content {
     width: 100%;
@@ -574,6 +583,11 @@ gap: var(--Spacing-L2, 48px);
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
+  }
+
+    .hero-copy{
+    margin-top: 100px;
+    align-items: center;
   }
 
   .hero-content {
