@@ -43,22 +43,22 @@ export default function Download() {
               <div className="os-content">
                   <div className="os-column">
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/frame23.svg" 
+                      iconPath="./assets/icons/Frame23.svg" 
                       osName="Windows" 
                       formats="exe-zip" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/frame24.svg" 
+                      iconPath="./assets/icons/Frame24.svg" 
                       osName="Mac OS (x86_64)" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/frame24.svg" 
+                      iconPath="./assets/icons/Frame24.svg" 
                       osName="Mac OS (arm64)" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/frame3.svg" 
+                      iconPath="./assets/icons/Frame3.svg" 
                       osName="Linux" 
                       formats="zip - tar.gz" 
                     />
@@ -70,17 +70,17 @@ export default function Download() {
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/frame3.svg" 
+                      iconPath="./assets/icons/Frame3.svg" 
                       osName="RISC-V Linux" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/frame3.svg" 
+                      iconPath="./assets/icons/Frame3.svg" 
                       osName="PPC64 Linux" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/frame24.svg" 
+                      iconPath="./assets/icons/Frame24.svg" 
                       osName="Snap Store Linux" 
                       formats="zip - tar.gz" 
                     />
