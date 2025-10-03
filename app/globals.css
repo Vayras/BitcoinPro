@@ -2203,7 +2203,7 @@ gap: var(--Spacing-L2, 48px);
 /* Component: Contact Hero Section - Target: Desktop */
 .contact-hero-section {
   display: flex;
-  padding: calc(var(--Spacing-Section-L, 240px) + var(--navbar-height-desktop)) var(--Spacing-Section-L, 240px) var(--Spacing-Section-M, 160px) var(--Spacing-Section-L, 240px);
+  padding: calc(var(--Spacing-Section-L, 100px) + var(--navbar-height-desktop)) var(--Spacing-Section-L, 240px) var(--Spacing-Section-M, 160px) var(--Spacing-Section-L, 240px);
   align-items: flex-start;
   gap: var(--Spacing-XL1, 64px);
   align-self: stretch;
@@ -2324,7 +2324,7 @@ gap: var(--Spacing-L2, 48px);
 @media (max-width: 1023px) {
   .contact-hero-section {
     display: flex;
-    padding: calc(var(--Spacing-Section-M, 160px) + var(--navbar-height-tablet)) var(--Spacing-L2, 48px) var(--Spacing-Section-S, 80px) var(--Spacing-L2, 48px);
+    padding: calc(var(--Spacing-Section-M, 80px) + var(--navbar-height-tablet)) var(--Spacing-L2, 48px) var(--Spacing-Section-S, 80px) var(--Spacing-L2, 48px);
     flex-direction: column;
     align-items: center;
     gap: var(--Spacing-XL2, 72px);
@@ -2362,7 +2362,7 @@ gap: var(--Spacing-L2, 48px);
 @media (max-width: 767px) {
   .contact-hero-section {
    display: flex;
-    padding: calc(var(--Spacing-Section-M, 160px) + var(--navbar-height-mobile)) var(--Spacing-M2, 24px) var(--Spacing-XL2, 72px) var(--Spacing-M2, 24px);
+    padding: calc(var(--Spacing-Section-M, 80px) + var(--navbar-height-mobile)) var(--Spacing-M2, 24px) var(--Spacing-XL2, 72px) var(--Spacing-M2, 24px);
     flex-direction: column;
     align-items: center;
     gap: var(--Spacing-XL1, 64px);
