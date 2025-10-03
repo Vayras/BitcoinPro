@@ -10,7 +10,7 @@ export default function RPCDocs() {
       <section className="rpc-docs-section">
         <div className="rpc-docs-content">
           <div className="rpc-docs-copy">
-            <p className="h4-bold lg:h3-bold">
+            <p className="h4-bold ">
               Bitcoin Pro RPC Docs
             </p>
             <p className="body-1-medium">

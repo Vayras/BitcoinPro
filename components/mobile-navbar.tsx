@@ -1,4 +1,6 @@
+'use client';
 import React from 'react';
+import { usePathname } from 'next/navigation';
 
 interface MobileNavbarProps {
   isOpen: boolean;
@@ -6,6 +8,8 @@ interface MobileNavbarProps {
 }
 
 const MobileNavbar: React.FC<MobileNavbarProps> = ({ isOpen, onClose }) => {
+  const pathname = usePathname();
+
   if (!isOpen) return null;
 
   return (
@@ -35,10 +39,10 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({ isOpen, onClose }) => {
         {/* Navigation Menu */}
         <div className="mobile-navbar-content">
           <nav className="mobile-navbar-nav">
-            <a href="/" className="mobile-nav-item" onClick={onClose}>Home</a>
-            <a href="/about" className="mobile-nav-item" onClick={onClose}>About</a>
-            <a href="#" className="mobile-nav-item" onClick={onClose}>Blog</a>
-            <a href="/contact" className="mobile-nav-item" onClick={onClose}>Contact</a>
+            <a href="/" className={`mobile-nav-item ${pathname === '/' ? 'active' : ''}`} onClick={onClose}>Home</a>
+            <a href="/about" className={`mobile-nav-item ${pathname.includes('/about') ? 'active' : ''}`} onClick={onClose}>About</a>
+            <a href="/blog" className={`mobile-nav-item ${pathname.includes('/blog') ? 'active' : ''}`} onClick={onClose}>Blog</a>
+            <a href="/contact" className={`mobile-nav-item ${pathname.includes('/contact') ? 'active' : ''}`} onClick={onClose}>Contact</a>
           </nav>
 
           {/* Download Button */}

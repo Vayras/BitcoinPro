@@ -1,6 +1,7 @@
 import MobileNavbar from "@/components/mobile-navbar"
 import Footer from "../components/footer"
 import Navbar from "../components/navbar"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
                 Our client is designed for those who believe Bitcoin should stay true to its original purpose: decentralized, peer-to-peer money. No bloat. No unnecessary features. Just the tools needed to keep the network secure, efficient, and censorship-resistant.
               </p>
             </div>
-            <button className="hero-btn">
-              Download
-            </button>
+            <Link href="/download" className="hero-btn">
+                Download
+              </Link>
           </div>
       </section>
 

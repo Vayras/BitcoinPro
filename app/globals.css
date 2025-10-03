@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Component: CSS Variables - Target: All Devices */
 :root {
   /* Colors */
@@ -508,7 +512,9 @@ gap: var(--Spacing-L2, 48px);
   }
 
   .hero-copy{
-    margin-top: 0px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     align-items: center;
   }
 
@@ -587,6 +593,8 @@ gap: var(--Spacing-L2, 48px);
 
     .hero-copy{
     margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
   }
 
@@ -685,6 +693,7 @@ gap: var(--Spacing-L2, 48px);
   text-align: center;
   color: var(--color-text-primary);
   margin: 0;
+  margin-bottom: 24px;
 }
 
 /* Component: About Description - Target: All Devices */
@@ -1209,7 +1218,6 @@ gap: var(--Spacing-L2, 48px);
 /* Component: Footer Social - Target: All Devices */
 .footer-social {
   display: flex;
-  align-items: center;
   gap: var(--Spacing-M, 16px);
 }
 
@@ -1377,7 +1385,7 @@ gap: var(--Spacing-L2, 48px);
 
 /* Component: Navbar - Target: Desktop */
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -1722,8 +1730,8 @@ gap: var(--Spacing-L2, 48px);
   display: block;
   padding: 0;
   font-family: var(--font-primary);
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 400;
   line-height: 1.3;
   color: #F5F5F5;
   text-decoration: none;
@@ -1752,7 +1760,8 @@ gap: var(--Spacing-L2, 48px);
   font-family: var(--font-primary);
   font-size: 16px;
   font-weight: 600;
-  color: #000000;
+  color: white;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
@@ -2393,7 +2402,7 @@ gap: var(--Spacing-L2, 48px);
 /* Component: RPC Docs Section - Target: Desktop */
 .rpc-docs-section {
   display: flex;
-  padding: calc(240px + var(--navbar-height-desktop)) 240px 160px;
+  padding: calc(100px + var(--navbar-height-desktop)) 240px 160px;
   flex-direction: column;
   align-items: flex-start;
   gap: 64px;
@@ -2485,7 +2494,7 @@ gap: var(--Spacing-L2, 48px);
 /* Component: RPC Docs Section - Target: Tablet */
 @media (max-width: 1023px) {
   .rpc-docs-section {
-    padding: calc(160px + var(--navbar-height-tablet)) 120px 120px;
+    padding: calc(80px + var(--navbar-height-tablet)) 120px 120px;
     gap: 48px;
   }
   
@@ -2509,7 +2518,7 @@ gap: var(--Spacing-L2, 48px);
 /* Component: RPC Docs Section - Target: Mobile */
 @media (max-width: 767px) {
   .rpc-docs-section {
-    padding: calc(120px + var(--navbar-height-mobile)) 24px 80px;
+    padding: calc(80px + var(--navbar-height-mobile)) 24px 80px;
     gap: 32px;
   }
   
@@ -2616,16 +2625,28 @@ letter-spacing: 0.084px;
 
   
 }
-
-
-.h4-bold{
+.h4-bold {
   color: var(--Text-Primary, #F5F5F5);
   font-family: var(--font-sora);
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 140%; /* 44.8px */
+  line-height: 140%;
+  letter-spacing: 0.084px;
 }
+
+@media (min-width: 768px) {
+  .h4-bold {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .h4-bold {
+    font-size: 42px;
+  }
+}
+
 
 .h3-bold{
   color: var(--Text-Primary, #F5F5F5);
@@ -2636,4 +2657,15 @@ letter-spacing: 0.084px;
   font-weight: 700;
   line-height: 140%; /* 58.8px */
   letter-spacing: 0.084px;
+}
+
+/* Component: List Item Margin - Target: All Devices */
+.list-item-indent {
+  margin-left: 0;
+}
+
+@media (min-width: 1024px) {
+  .list-item-indent {
+    margin-left: 30px;
+  }
 }

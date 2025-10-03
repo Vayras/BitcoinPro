@@ -27,15 +27,12 @@ export default function Download() {
         </div>
       </section>
 
-
-    
-      
       {/* Bandwidth and Storage Section */}
       <section className="verification-section">
         <div className="os-container">
               
               <span className="os-text">
-                    <p className="h3-semibold ">Or choose your operating system</p>
+                    <p className="h4-bold ">Or choose your operating system</p>
                     <p className="body-1-medium">
                   Pick your operating system below to start your download.
                 </p>
@@ -43,44 +40,44 @@ export default function Download() {
               <div className="os-content">
                   <div className="os-column">
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame23.svg" 
+                      iconPath="./assets/icons/frame23.svg" 
                       osName="Windows" 
                       formats="exe-zip" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame24.svg" 
+                      iconPath="./assets/icons/frame1.svg" 
                       osName="Mac OS (x86_64)" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame24.svg" 
+                      iconPath="./assets/icons/frame1.svg" 
                       osName="Mac OS (arm64)" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame3.svg" 
+                      iconPath="./assets/icons/frame3.svg" 
                       osName="Linux" 
                       formats="zip - tar.gz" 
                     />
                   </div>
                   <div className="os-column">
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame3.svg" 
+                      iconPath="./assets/icons/frame3.svg" 
                       osName="ARM Linux" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame3.svg" 
+                      iconPath="./assets/icons/frame3.svg" 
                       osName="RISC-V Linux" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame3.svg" 
+                      iconPath="./assets/icons/frame3.svg" 
                       osName="PPC64 Linux" 
                       formats="zip - tar.gz" 
                     />
                     <OSDownloadEntry 
-                      iconPath="./assets/icons/Frame24.svg" 
+                      iconPath="./assets/icons/frame24.svg" 
                       osName="Snap Store Linux" 
                       formats="zip - tar.gz" 
                     />
@@ -122,23 +119,23 @@ export default function Download() {
             compromising security. For detailed setup instructions, please see the full node guide.
           </p>
           
-          <h2 className="verification-title">Verify Your Download</h2>
+          <h2 className="verification-title" style={{marginTop: "80px"}}>Verify Your Download</h2>  
           <p className="verification-description">
             Verifying your download isn't required but is strongly recommended. Following the verification
             steps helps ensure you haven't downloaded a corrupted or malicious version of BitcoinPro,
             which could put your funds at risk.
           </p>
           
-          <p className="verification-description">Choose your platform below for step-by-step verification instructions:</p>
+          <p className="verification-description" style={{marginTop: "40px", marginBottom: "40px"}}>Choose your platform below for step-by-step verification instructions:</p>
           
-          <ul className="verification-list">
+          <ul className="verification-list" style={{marginTop: "40px"}}>
             <li>Windows verification guide</li>
             <li>macOS verification guide</li>
             <li>Linux verification guide</li>
             <li>Snap package verification guide</li>
           </ul>
           
-          <h2 className="verification-title">Additional Verification with Reproducible Builds</h2>
+          <h2 className="verification-title"  style={{marginTop: "50px"}}>Additional Verification with Reproducible Builds</h2>
           <p className="verification-description">
             Advanced users can also take advantage of BitcoinPro's reproducible build process and signed
             checksums published by contributors. Reproducible builds make it possible to independently

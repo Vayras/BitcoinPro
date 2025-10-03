@@ -51,7 +51,7 @@
 
 /* Main Article Content */
 .article-content-section {
-  margin-top: 100px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -79,12 +79,15 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 80px;
   max-width: 794px;
   gap: var(--Spacing-M2, 24px);
 }
 
 .share-buttons {
   display: flex;
+  justify-content: right;
+  align-items: center;
   gap: var(--Spacing-M1, 16px);
 }
 
@@ -116,7 +119,6 @@
 /* Related Posts Section */
 .related-posts-section {
   width: 100%;
-  margin-top: var(--Spacing-Section-M, 120px);
 }
 
 .related-posts-container {
@@ -125,25 +127,23 @@
   gap: var(--Spacing-M2, 24px);
   width: 100%;
   max-width: 100%;
-  overflow: hidden;
 }
 
 .nav-button {
   width: 48px;
   height: 48px;
-  background-color: rgba(255, 255, 255, 0.08);
+  background: transparent;
   border: none;
-  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   flex-shrink: 0;
-  transition: background-color 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .nav-button:hover:not(:disabled) {
-  background-color: rgba(255, 255, 255, 0.16);
+  opacity: 0.8;
 }
 
 .nav-button:disabled {
@@ -151,11 +151,15 @@
   opacity: 0.5;
 }
 
+.related-post-cards-wrapper {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
 .related-post-cards {
   display: flex;
   gap: var(--Spacing-M2, 24px);
-  overflow: visible;
-  flex: 1;
 }
 
 .related-post-card {
@@ -190,13 +194,14 @@
 }
 
 .h4-bold {
-  color: var(--Text-Primary, #F5F5F5);
-  font-family: var(--font-primary);
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%;
-  margin: 0;
+    color: var(--Text-Primary, #F5F5F5);
+
+  font-family: var(--font-sora);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 58.8px */
+    letter-spacing: 0.084px;
 }
 
 .body-1-medium {
@@ -236,7 +241,7 @@
 }
 
 .caption-medium {
-  color: var(--Text-Tertiary, #858585);
+  color: var(--Text-Tertiary, #E0E0E0);
   font-family: var(--font-secondary);
   font-size: 15px;
   font-style: normal;

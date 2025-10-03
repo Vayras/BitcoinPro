@@ -7,7 +7,7 @@ export default function About() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section" style={{ backgroundImage: "url('/aboutHero.png')" }}>
           <div className="hero-copy">
             <div className="hero-text">
               <h1 className="hero-title">
@@ -61,7 +61,7 @@ export default function About() {
       <section className="maintainers-section">
         <div className="maintainers-content">
           <div className="maintainers-image">
-            <img src="/maintainers-image.png" alt="How You Can Help" className="maintainers-img" />
+            <img src="/BitcoinPro.png" alt="How You Can Help" className="maintainers-img" />
           </div>
           <div className="maintainers-text">
             <div className="maintainers-info">
@@ -70,16 +70,11 @@ export default function About() {
                 <p className="maintainer-description">
                   Bitcoin Pro is 100% donor-supported. If you care about protecting Bitcoin's freedom and want to empower the developers, researchers, and educators who keep it alive, consider making a contribution.
                 </p>
-                <br />
-                <p className="maintainer-description">
-                  • Donate monthly to provide stable, predictable funding
-                </p>
-                <p className="maintainer-description">
-                  • Sponsor specific projects or contributors
-                </p>
-                <p className="maintainer-description">
-                  • Support our operations budget so we can continue our mission sustainably
-                </p>
+                <ul className="maintainer-description " style={{listStyleType: "none"}} >
+                  <li className="list-item-indent">•  Donate monthly to provide stable, predictable funding</li>
+                  <li className="list-item-indent">•  Sponsor specific projects or contributors</li>
+                  <li className="list-item-indent">•  Support our operations budget so we can continue our mission sustainably</li>
+                </ul>
                 <br />
                 <p className="maintainer-description">
                   Every donation, large or small, helps defend Bitcoin's future.

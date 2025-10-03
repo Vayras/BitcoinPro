@@ -1,9 +1,11 @@
 'use client';
 import React, { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import MobileNavbar from './mobile-navbar';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -35,10 +37,10 @@ const Navbar = () => {
           <div className="navbar-right">
             {/* Navigation Menu - Desktop Only */}
             <nav className="navbar-nav">
-              <a href="/" className="nav-item active">Home</a>
-              <a href="/about" className="nav-item">About</a>
-              <a href="/blog" className="nav-item">Blog</a>
-              <a href="/contact" className="nav-item">Contact</a>
+              <a href="/" className={`nav-item ${pathname === '/' ? 'active' : ''}`}>Home</a>
+              <a href="/about" className={`nav-item ${pathname.includes('/about') ? 'active' : ''}`}>About</a>
+              <a href="/blog" className={`nav-item ${pathname.includes('/blog') ? 'active' : ''}`}>Blog</a>
+              <a href="/contact" className={`nav-item ${pathname.includes('/contact') ? 'active' : ''}`}>Contact</a>
             </nav>
 
             {/* Download Button - Desktop Only */}
