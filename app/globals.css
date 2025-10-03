@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* Component: CSS Variables - Target: All Devices */
 :root {
   /* Colors */
