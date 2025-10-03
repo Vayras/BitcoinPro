@@ -36,7 +36,7 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  background: url('/0b941d030dfc6e05415e330c4e0992341c4ba22f.png');
+  background: url('/articleHeader.png');
   background-size: cover;
 }
 
@@ -349,7 +349,8 @@
   }
   
   .article-content-section {
-    padding: 0 var(--Spacing-M2, 24px) var(--Spacing-Section-M, 120px);
+    margin-top: 100px;
+    padding: 0 var(--Spacing-M2, 24px) var(--Spacing-Section-M, 80px);
   }
   
   .article-header-copy {
