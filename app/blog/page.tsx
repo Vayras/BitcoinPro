@@ -12,8 +12,8 @@ export default function Blog() {
         <div className='blog-page-container'>
          <div className='standard-section'>
             <div className='copy'>
-                <p className='h3-semibold'>Blog</p>
-                <p className='subtitle-medium '>
+                <p className='blog-title'>Blog</p>
+                <p className='blog-description '>
                     Explore perspectives, technical updates, and discussions about Bitcoin’s evolution and the work behind the world’s most resilient financial infrastructure.
                 </p>
             </div>

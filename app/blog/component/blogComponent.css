@@ -116,3 +116,40 @@ letter-spacing: -0.18px;
     line-height: 110%;
   }
 }
+
+.blog-post-description{
+   overflow: hidden;
+    color: var(--Text-Secondary, #C2C2C2);
+    text-overflow: ellipsis;
+
+    /* Body 1/Medium */
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 32.4px */
+    letter-spacing: -0.18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    align-self: stretch;
+}
+
+@media (max-width: 1024px) {
+    .blog-post-description {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            align-self: stretch;
+            overflow: hidden;
+            color: var(--Text-Secondary, #C2C2C2);
+            text-overflow: ellipsis;
+
+            /* Body 2/Medium */
+            font-family: var(--font-dm-sans);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%; /* 25.6px */
+    }
+}

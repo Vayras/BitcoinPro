@@ -163,7 +163,7 @@ export default function BlogPost() {
                   {relatedPosts.map((post) => (
                     <div key={post.id} className='related-post-card'>
                       <h4 className='body-1-bold'>{post.title}</h4>
-                      <p className='caption-medium'>{post.excerpt}</p>
+                      <p className='blog-description'>{post.excerpt}</p>
                       <p className='caption-regular'>Published: {post.date}</p>
                     </div>
                   ))}

@@ -432,3 +432,27 @@
     line-height: 110%;
   }
 }
+
+.blog-description{
+  overflow: hidden;
+  color: var(--Text-Secondary, #C2C2C2);
+  text-overflow: ellipsis;
+
+  /* Body 2/Medium */
+  font-family: var(--font-dm-sans);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-self: stretch;
+}
+
+@media (max-width: 1024px) {
+  .blog-description {
+      font-size: 14px;
+  }
+}

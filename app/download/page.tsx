@@ -119,7 +119,7 @@ export default function Download() {
             compromising security. For detailed setup instructions, please see the full node guide.
           </p>
           
-          <h2 className="verification-title" style={{marginTop: "80px"}}>Verify Your Download</h2>  
+          <h2 className="verification-title" >Verify Your Download</h2>  
           <p className="verification-description">
             Verifying your download isn't required but is strongly recommended. Following the verification
             steps helps ensure you haven't downloaded a corrupted or malicious version of BitcoinPro,
