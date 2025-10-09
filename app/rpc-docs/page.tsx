@@ -20,12 +20,12 @@ export default function RPCDocs() {
           
           {/* System Versions */}
           <ul className="rpc-versions-system">
-            <li className="version-item">29.0.0</li>
-            <li className="version-item">28.0.0</li>
-            <li className="version-item">27.0.0</li>
-            <li className="version-item">27.0.0</li>
-            <li className="version-item">27.0.0</li>
-            <li className="version-item">27.0.0</li>
+            <a href="/release/29.1"><li className="version-item">29.0.0</li></a>
+             <a href="/release/29.1"><li className="version-item">28.0.0</li></a>
+              <a href="/release/29.1"><li className="version-item">27.0.0</li></a>
+               <a href="/release/29.1"><li className="version-item">27.0.0</li></a>
+                <a href="/release/29.1"><li className="version-item">27.0.0</li></a>
+                 <a href="/release/29.1"><li className="version-item">27.0.0</li></a>
           </ul>
         </div>
       </section>
