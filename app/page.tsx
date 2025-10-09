@@ -9,7 +9,8 @@ export default function Home() {
       <Navbar />
       {/* Hero Section */}
       <section className="hero-section">
-          <div className="hero-copy">
+        <div className="hero-content">
+    <div className="hero-copy">
             <div className="hero-text ">
               <h1 className="hero-title ">
                 A Bitcoin Client That Keeps Bitcoin Simple
@@ -22,6 +23,8 @@ export default function Home() {
                 Download
               </Link>
           </div>
+        </div>
+      
       </section>
 
       {/* About Section */}

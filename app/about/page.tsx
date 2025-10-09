@@ -8,7 +8,8 @@ export default function About() {
       
       {/* Hero Section */}
       <section className="hero-section" style={{ backgroundImage: "url('/aboutHero.png')" }}>
-          <div className="hero-copy">
+      <div className="hero-content">
+ <div className="hero-copy">
             <div className="hero-text">
               <h1 className="hero-title">
                 About Bitcoin Pro
@@ -24,6 +25,8 @@ export default function About() {
               Download
             </a>
           </div>
+      </div>
+         
       </section>
 
       {/* Our Goals Section */}

@@ -464,12 +464,11 @@ box-sizing: border-box;
 
 /* Component: Hero Description - Target: All Devices */
 .hero-description {
-  color: var(--Text-Primary, #F5F5F5);
+    color: var(--Text-Primary, #F5F5F5);
 
-
+   
   /* Body 1/Medium */
-  color: var(--Text-Primary, #F5F5F5);
-
+    color: var(--Text-Primary, #F5F5F5);
     /* Subtitle/Medium */
     font-family: var(--font-sora);
     font-size: 22px;
@@ -482,7 +481,7 @@ box-sizing: border-box;
   .hero-description {
     color: var(--Text-Primary, #F5F5F5);
     
-
+ text-align: center;
     /* Body 1/Medium */
     font-family: var(--font-dm-sans);
     font-size: 18px;
@@ -602,8 +601,6 @@ box-sizing: border-box;
 
     .hero-copy{
     margin-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
     align-items: center;
   }
 
