@@ -11,7 +11,7 @@ export default function About() {
           <div className="hero-copy">
             <div className="hero-text">
               <h1 className="hero-title">
-                About BitcoinPro
+                About Bitcoin Pro
               </h1>
               <p className="hero-description">
                 BitcoinPro is an open-source project dedicated to developing and maintaining Bitcoin client software known as "BitcoinPro."

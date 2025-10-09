@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Image from "next/image";
+import TableComponent from "@/components/tableComponent";
 
 export default function Contact() {
   return (
@@ -37,8 +38,8 @@ export default function Contact() {
             <br></br>
             <code className="">gpg --keyserver hkps://keys.openpgp.org --recv-keys "&lt;fingerprint&gt;"</code>
             
-            <div className="divider"></div>
-            
+            <div className="divider"></div> 
+            <TableComponent/>
             <div className="responsible-disclosure">
               <p><strong>Responsible Disclosure</strong></p>
               <p>To report security issues:</p>

@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
       </div>
       <div className="footer-bottom">
-        © 2025 Bitcoin Pro. All rights reserved
+        © 2025 Bitcoin Pro. All rights reserved.
       </div>
     </footer>
   )

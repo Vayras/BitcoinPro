@@ -90,7 +90,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 /* Component: HTML Base - Target: All Devices */
@@ -1389,7 +1389,7 @@ gap: var(--Spacing-L2, 48px);
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 24px 220px;
+  padding: 1.5rem 13.75rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -1399,7 +1399,7 @@ gap: var(--Spacing-L2, 48px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  padding: 1.5rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(64px);
   border-radius: 24px;
@@ -2695,4 +2695,35 @@ letter-spacing: 0.084px;
 }
 
 
+.name{
+  color: var(--Text-Primary, #F5F5F5);
 
+  /* Body 2/Regular */
+  font-family: var(--font-dm-sans);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+/* Component: Section Divider - Target: All Devices */
+.section-divider {
+  height: 1px;
+  background: #333;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+@media (max-width: 1024px) {
+  .section-divider {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-divider {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}

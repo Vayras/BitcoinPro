@@ -137,7 +137,7 @@ export default function BlogPost() {
             </div>
           </div>
           
-                    <div className='divider'></div>
+             
 
           {/* Related Posts Section */}
           <div className='related-posts-section'>

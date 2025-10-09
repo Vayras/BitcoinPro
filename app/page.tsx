@@ -46,8 +46,11 @@ export default function Home() {
           </div>
       </section>
 
+
+           <div className="section-divider" />
       {/* Maintainers Section */}
       <section className="maintainers-section">
+        
         <div className="maintainers-content">
           <div className="maintainers-image">
             <img src="/maintainers-image.png" alt="Maintainers" className="maintainers-img" />

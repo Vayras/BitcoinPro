@@ -1,0 +1,58 @@
+.tableColumnParent {
+  	display: flex;
+    align-items: center;
+
+    align-self: stretch;
+    border-radius: var(--Spacing-XS, 0.25rem);
+    /* border: 1px solid var(--Surface-Border-Primary, #333); */
+}
+.tableColumn {
+  	display: flex;
+    width: 7.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid var(--Surface-Border-Primary, #333);
+    background: var(--Surface-Primary, #1F1F1F);
+}
+
+.table {
+     display: flex;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-bottom: 1px solid var(--Surface-Border-Primary, #333);
+    background: var(--Surface-Primary, #1F1F1F);
+    }
+
+
+.table2 {
+  	display: flex;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-bottom: 1px solid var(--Surface-Border-Primary, #333);
+    background: var(--Surface-Primary, #1F1F1F);
+}
+.tableColumn2 {
+  	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-top: 1px solid var(--Surface-Border-Primary, #333);
+    border-right: 1px solid var(--Surface-Border-Primary, #333);
+    border-bottom: 1px solid var(--Surface-Border-Primary, #333);
+    background: var(--Surface-Primary, #1F1F1F);
+}
+
+/* Mobile Scrollable Table */
+@media (max-width: 768px) {
+  .tableColumnParent {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    min-width: 100%;
+  }
+}
