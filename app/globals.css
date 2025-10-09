@@ -426,18 +426,22 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 48px;
-  width: 796px;
+  width: 100%;
+  max-width: 796px;
+  box-sizing: border-box;
 }
 
 /* Component: Hero Copy - Target: All Devices */
 .hero-copy {
  display: flex;
 margin-top: 0px;
+width: 100%;
 max-width: 796px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: var(--Spacing-L2, 48px);
+box-sizing: border-box;
 }
 
 /* Component: Hero Text - Target: All Devices */
@@ -1915,8 +1919,10 @@ gap: var(--Spacing-L2, 48px);
 }
 
 .verification-content {
-  width: 796px;
+  width: 100%;
+  max-width: 796px;
   gap: var(--Spacing-Section-S, 80px);
+  box-sizing: border-box;
 }
 
 .verification-title {
@@ -2212,6 +2218,9 @@ gap: var(--Spacing-L2, 48px);
   align-self: stretch;
   min-height: 100vh;
   box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Component: Contact Hero Image - Target: All Devices */
@@ -2251,6 +2260,10 @@ gap: var(--Spacing-L2, 48px);
   justify-content: center;
   gap: 24px;
   flex: 1;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* Component: Contact Hero Title - Target: All Devices */
@@ -2269,6 +2282,10 @@ gap: var(--Spacing-L2, 48px);
   display: flex;
   flex-direction: column;
   gap: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* Component: Contact Info Text - Target: All Devices */
@@ -2290,7 +2307,8 @@ gap: var(--Spacing-L2, 48px);
 
 /* Component: Divider - Target: All Devices */
 .divider {
-  width: 591px;
+  width: 100%;
+  max-width: 591px;
   height: 1px;
   background: #333333;
   margin: 24px 0;
@@ -2431,10 +2449,12 @@ gap: var(--Spacing-L2, 48px);
 /* Component: RPC Docs Copy - Target: All Devices */
 .rpc-docs-copy {
   display: flex;
-  width: 796px;
+  width: 100%;
+  max-width: 796px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
+  box-sizing: border-box;
 }
 
 /* Component: RPC Docs Title - Target: All Devices */
@@ -2466,10 +2486,12 @@ gap: var(--Spacing-L2, 48px);
 /* Component: RPC Versions System - Target: All Devices */
 .rpc-versions-system {
   display: flex;
-  width: 786px;
+  width: 100%;
+  max-width: 786px;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  box-sizing: border-box;
 }
 
 /* Component: Version Item - Target: All Devices */
@@ -2559,7 +2581,8 @@ gap: var(--Spacing-L2, 48px);
 
 .os-section{
   display: flex;
-  width: 796px;
+  width: 100%;
+  max-width: 796px;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--Spacing-Section-S, 80px);
@@ -2605,10 +2628,12 @@ letter-spacing: 0.084px;
 
 .os-container{
   display: flex;
+  width: 100%;
   max-width: 796px;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--Spacing-Section-S, 80px);
+  box-sizing: border-box;
 }
 
 

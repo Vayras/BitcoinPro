@@ -1,11 +1,19 @@
+/* Table Wrapper for Scroll */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .tableColumnParent {
   	display: flex;
     align-items: center;
-
     align-self: stretch;
     border-radius: var(--Spacing-XS, 0.25rem);
+    min-width: max-content;
     /* border: 1px solid var(--Surface-Border-Primary, #333); */
 }
+
 .tableColumn {
   	display: flex;
     width: 7.75rem;
@@ -13,6 +21,7 @@
     align-items: flex-start;
     border: 1px solid var(--Surface-Border-Primary, #333);
     background: var(--Surface-Primary, #1F1F1F);
+    flex-shrink: 0;
 }
 
 .table {
@@ -37,22 +46,26 @@
     border-bottom: 1px solid var(--Surface-Border-Primary, #333);
     background: var(--Surface-Primary, #1F1F1F);
 }
+
 .tableColumn2 {
   	display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex: 1 0 0;
+    width: 500px;
     border-top: 1px solid var(--Surface-Border-Primary, #333);
     border-right: 1px solid var(--Surface-Border-Primary, #333);
     border-bottom: 1px solid var(--Surface-Border-Primary, #333);
     background: var(--Surface-Primary, #1F1F1F);
+    flex-shrink: 0;
+}
+
+.tableColumn2 .name {
+  white-space: nowrap;
 }
 
 /* Mobile Scrollable Table */
 @media (max-width: 768px) {
   .tableColumnParent {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    min-width: 100%;
+    min-width: 600px;
   }
 }
