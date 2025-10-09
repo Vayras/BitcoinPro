@@ -33,7 +33,7 @@ const ReleaseComponent: React.FC<ReleaseComponentProps> = () => {
       {releases.map((release, index) => (
         <div key={index} className='release-card'>
           <p>{release}</p>
-          <p className='read-more'>Read More</p>
+          <p className='read-more'> <a className='text' href='/release/29.1'>Read More</a></p>
         </div>
       ))}
     </div>
