@@ -27,7 +27,7 @@ export default function Blog() {
 
                     
          </div>
-         <div className='text-center caption-medium' style={{marginTop: "40px", marginBottom: "140px"}}>
+         <div className='text-center caption-medium margin-container'>
             page 1 of 1
          </div>
         </div>

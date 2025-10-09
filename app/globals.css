@@ -673,7 +673,6 @@ gap: var(--Spacing-L2, 48px);
 .about-mockup {
   width: 245px;
   height: 215px;
-  border-radius: 24px;
   object-fit: contain;
 }
 
@@ -1924,6 +1923,7 @@ gap: var(--Spacing-L2, 48px);
   font-weight: 700;
   color: var(--color-text-primary);
   margin-bottom: 1.5rem;
+  font-family: var(--font-sora);
 }
 
 .verification-description {
@@ -1935,7 +1935,7 @@ gap: var(--Spacing-L2, 48px);
 
 .verification-list {
   list-style-type: disc;
-  padding-left: 1.5rem;
+  padding-left: 0.99rem;
   margin-bottom: 2rem;
 }
 
@@ -2473,22 +2473,22 @@ gap: var(--Spacing-L2, 48px);
 
 /* Component: Version Item - Target: All Devices */
 .version-item {
-  color: #F5F5F5;
-  font-family: var(--font-secondary);
+  color: var(--Text-Primary, #F5F5F5);
+
+/* Body 1/Medium */
+  font-family: var(--font-dm-sans);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.7999998728434246em;
-  letter-spacing: -1%;
-  text-align: left;
-  padding: 4px 0;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.3);
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
-  width: 100%;
-  transition: all 0.3s ease;
-  cursor: pointer;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: -0.18px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  align-self: stretch;
 }
 
 /* Component: Version Item Hover - Target: All Devices */
@@ -2672,7 +2672,7 @@ letter-spacing: 0.084px;
 
 @media (min-width: 1024px) {
   .list-item-indent {
-    margin-left: 30px;
+    margin-left: 0px;
   }
 }
 

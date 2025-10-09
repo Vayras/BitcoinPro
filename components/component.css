@@ -1,0 +1,39 @@
+.release-component-container{
+    display: flex;
+    height: 284px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Spacing-XXXS, 1px);
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: var(--Spacing-M1, 16px);
+    border: 1px solid var(--Surface-Border-Primary, #333);
+    background: var(--Surface-Primary, #1F1F1F);
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.release-component-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.release-card{
+    display: flex;
+    padding: var(--Spacing-S, 8px) var(--Spacing-M2, 24px);
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: var(--Spacing-XXXS, 1px);
+    border-bottom: 1px solid var(--Surface-Border-Primary, #333);
+}
+
+.text-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-more{
+    color: #F7931A;
+    cursor: pointer;
+}

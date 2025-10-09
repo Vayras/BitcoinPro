@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import Image from "next/image"
 import OSDownloadEntry from "@/components/OSDownloadEntry"
+import ReleaseComponent from "@/components/releaseComponent"
 
 export default function Download() {
   return (
@@ -134,6 +135,9 @@ export default function Download() {
             <li>Linux verification guide</li>
             <li>Snap package verification guide</li>
           </ul>
+
+          <h2 className="verification-title"  style={{marginTop: "50px"}}>Release History</h2>
+          <ReleaseComponent/>
           
           <h2 className="verification-title"  style={{marginTop: "50px"}}>Additional Verification with Reproducible Builds</h2>
           <p className="verification-description">
