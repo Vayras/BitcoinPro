@@ -2492,6 +2492,7 @@ box-sizing: border-box;
   align-items: flex-start;
   gap: 8px;
   box-sizing: border-box;
+  margin-left: 20px;
 }
 
 /* Component: Version Item - Target: All Devices */
