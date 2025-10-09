@@ -1404,6 +1404,7 @@ gap: var(--Spacing-L2, 48px);
   backdrop-filter: blur(64px);
   border-radius: 24px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 /* Component: Navbar Logo - Target: All Devices */
