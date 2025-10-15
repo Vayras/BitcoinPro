@@ -21,6 +21,7 @@ export default function Footer() {
                 <a href="/about">About</a>
                 <a href="/blog">Blog</a>
                 <a href="/download">Download</a>
+                <a href="/assets/BitcoinPro_Brand.zip" download>Brand Assets</a>
               </div>
               <div className="footer-column links">
                 <h4>Links</h4>
