@@ -4,6 +4,7 @@ import "./tableComponent.css"
 
 const TableComponent:FunctionComponent = () => {
   	return (
+		<div className="table-wrapper">
 			<div className="tableColumnParent">
       			<div className="tableColumn">
         				<div className="table">
@@ -33,7 +34,8 @@ const TableComponent:FunctionComponent = () => {
           					<div className="name">133E AC17 9436 F14A 5CF1  B794 860F EB80 4E66 9320</div>
         				</div>
       			</div>
-    		</div>);
+    		</div>
+		</div>);
 };
 
 export default TableComponent;

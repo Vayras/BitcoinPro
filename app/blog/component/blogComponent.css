@@ -2,13 +2,12 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    max-width: 794px;
+    /* max-width: 956px; */
 }
 
 .blog-container{
     display: flex;
     width: 100%;
-    max-width: 794px;
     padding: var(--Spacing-M2, 24px) 0;
     flex-direction: column;
     align-items: flex-start;

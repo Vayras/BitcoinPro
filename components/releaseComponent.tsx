@@ -29,6 +29,7 @@ const releases = [
 
 const ReleaseComponent: React.FC<ReleaseComponentProps> = () => {
   return (
+    <>
     <div className='release-component-container'>
       {releases.map((release, index) => (
         <div key={index} className='release-card'>
@@ -37,6 +38,7 @@ const ReleaseComponent: React.FC<ReleaseComponentProps> = () => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 

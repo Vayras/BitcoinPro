@@ -85,19 +85,19 @@ export default function Download() {
                   </div>
               </div>
               <div>
-                <p>
+                <p className="download-link">
                   SHA256 binary hashes
                 </p>
-                <p>
+                <p className="download-link">
                   HA256 hash signatures
                 </p>
-                <p>
-                  Download torrent 
+                <p className="download-link">
+                  Download torrent
                 </p>
-                <p>
+                <p className="download-link">
                   Source Code
                 </p>
-                <p>
+                <p className="download-link">
                   Show version history
                 </p>
               </div>
@@ -110,7 +110,11 @@ export default function Download() {
                 </p>
               </div>
         </div>
-        
+       <div className="release-container">
+            <h2 className="verification-title">Release History</h2>
+                       <ReleaseComponent/>
+       </div>
+
         <div className="verification-content">
           <h2 className="verification-title">Check Your Bandwidth and Storage</h2>
           <p className="verification-description">
@@ -137,7 +141,7 @@ export default function Download() {
           </ul>
 
           <h2 className="verification-title"  style={{marginTop: "50px"}}>Release History</h2>
-          <ReleaseComponent/>
+       
           
           <h2 className="verification-title"  style={{marginTop: "50px"}}>Additional Verification with Reproducible Builds</h2>
           <p className="verification-description">

@@ -10,14 +10,6 @@ export default function Blog() {
         <Navbar />
         </div>
         <div className='blog-page-container'>
-         <div className='standard-section'>
-            <div className='copy'>
-                <p className='blog-title'>Blog</p>
-                <p className='blog-description '>
-                    Explore perspectives, technical updates, and discussions about Bitcoin’s evolution and the work behind the world’s most resilient financial infrastructure.
-                </p>
-            </div>
-         </div>
          <div className='blog-list-section'>
             <BlogComponent title='Running a Bitcoin Full Node: Taking Back Your Financial Power' caption='Published: April 22, 2025' body='Running your own Bitcoin full node is the most direct way to reclaim financial independence in a world of centralized intermediaries. This post explains why full nodes matter, how they enforce consensus rules, and how anyone can set one up to verify the entire blockchain themselves. From privacy benefits to the critical role nodes play in keeping Bitcoin trustless, you’ll learn why node operation isn’t just for developers—it’s for anyone who values freedom.' />
            

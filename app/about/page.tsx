@@ -33,25 +33,17 @@ export default function About() {
       <section className="about-section">
           <div className="about-content">
             <div className="about-text">
-              <div className="about-copy">
+              <div className="maintainer-block">
                 <h2 className="about-title">Our Goals</h2>
                 <p className="about-description">
                   We don't pick winners or promote personal agendas. Instead, we focus on supporting work that:
                 </p>
-                <br />
-                <p className="about-description">
-                  • Strengthens Bitcoin's security and decentralization
-                </p>
-                <p className="about-description">
-                  • Improves accessibility and usability without compromising core principles
-                </p>
-                <p className="about-description">
-                  • Advances education and research in open, verifiable ways
-                </p>
-                <p className="about-description">
-                  • Protects the rights of individuals to participate in the Bitcoin network freely
-                </p>
-                <br />
+                <ul className="about-description about-list">
+                  <li><p>•</p> <p>Strengthens Bitcoin's security and decentralization</p></li>
+                  <li><p>•</p> <p>Improves accessibility and usability without compromising core principles</p></li>
+                  <li><p>•</p> <p>Advances education and research in open, verifiable ways</p></li>
+                  <li><p>•</p> <p>Protects the rights of individuals to participate in the Bitcoin network freely</p></li>
+                </ul>
                 <p className="about-description">
                   We work closely with the community to identify high-impact projects, independent developers, and maintainers who share these values. We publish regular reports so donors can see exactly how their contributions are being used.
                 </p>
@@ -73,13 +65,13 @@ export default function About() {
                 <p className="maintainer-description">
                   Bitcoin Pro is 100% donor-supported. If you care about protecting Bitcoin's freedom and want to empower the developers, researchers, and educators who keep it alive, consider making a contribution.
                 </p>
-                <ul className="maintainer-description " style={{listStyleType: "none"}} >
-                  <li className="list-item-indent">•  Donate monthly to provide stable, predictable funding</li>
-                  <li className="list-item-indent">•  Sponsor specific projects or contributors</li>
-                  <li className="list-item-indent">•  Support our operations budget so we can continue our mission sustainably</li>
+                <ul className="about-description about-list "  >
+                  <li><p>•</p> <p>Donate monthly to provide stable, predictable funding</p></li>
+                  <li><p>•</p> <p>Sponsor specific projects or contributors</p></li>
+                  <li><p>•</p> <p>Support our operations budget so we can continue our mission sustainably</p></li>
                 </ul>
-                <br />
-                <p className="maintainer-description">
+          
+                <p className="about-description">
                   Every donation, large or small, helps defend Bitcoin's future.
                 </p>
               </div>
