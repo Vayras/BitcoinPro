@@ -757,7 +757,6 @@ box-sizing: border-box;
 /* Component: About Section - Target: Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   .about-section {
-    padding: 5rem 4rem;
     gap: 80px;
     align-items: flex-start;
     margin-top: var(--navbar-height-tablet);
@@ -980,7 +979,7 @@ box-sizing: border-box;
 /* Component: Maintainers Section - Target: Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   .maintainers-section {
-    padding: 5rem 4rem;
+   
     gap: 80px;
     align-items: flex-start;
   }
@@ -2000,7 +1999,7 @@ box-sizing: border-box;
 /* Component: Verification Section - Target: Tablet */
 @media (max-width: 1024px) {
   .verification-section {
-    padding: 5rem 4rem;
+    
     align-items: center;
     gap: 56px;
   }
