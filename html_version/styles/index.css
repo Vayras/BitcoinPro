@@ -1,0 +1,395 @@
+/* Home Page Specific Styles */
+
+/* Component: Hero Section - Target: Desktop */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  padding: calc(10rem + var(--navbar-height-desktop)) 15rem 15rem;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../public/hero-background-1bd3af.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Component: Hero Content - Target: All Devices */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  width: 100%;
+  max-width: 796px;
+  box-sizing: border-box;
+}
+
+/* Component: Hero Copy - Target: All Devices */
+.hero-copy {
+  display: flex;
+  margin-top: 0px;
+  width: 100%;
+  max-width: 796px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  box-sizing: border-box;
+}
+
+/* Component: Hero Text - Target: All Devices */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Component: Hero Title - Target: All Devices */
+.hero-title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 1.3;
+  letter-spacing: 0.2%;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+/* Component: Hero Description - Target: All Devices */
+.hero-description {
+  color: var(--color-text-primary);
+  font-family: var(--font-primary);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/* Component: Hero Button - Target: All Devices */
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 3rem;
+  border-radius: 64px;
+  background: var(--color-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  width: fit-content;
+  text-decoration: none;
+}
+
+/* Component: Hero Button Hover - Target: All Devices */
+.hero-btn:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+}
+
+/* Component: About Section - Target: All Devices */
+.about-section {
+  display: flex;
+  padding: 4.5rem 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  background: var(--color-background);
+  box-sizing: border-box;
+}
+
+/* Component: About Content - Target: All Devices */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+  text-align: left;
+}
+
+/* Component: About Image - Target: All Devices */
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Component: About Mockup - Target: All Devices */
+.about-mockup {
+  width: 245px;
+  height: 215px;
+  object-fit: contain;
+}
+
+/* Component: About Text - Target: All Devices */
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Component: About Title - Target: All Devices */
+.about-title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.4;
+  text-align: left;
+  color: var(--color-text-primary);
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+/* Component: About Description - Target: All Devices */
+.about-description {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Component: Section Divider - Target: All Devices */
+.section-divider {
+  height: 1px;
+  background: #333;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+/* Component: Maintainers Section - Target: All Devices */
+.maintainers-section {
+  display: flex;
+  padding: 4.5rem 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  background: var(--color-background);
+  box-sizing: border-box;
+}
+
+/* Component: Maintainers Content - Target: All Devices */
+.maintainers-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+/* Component: Maintainers Image - Target: All Devices */
+.maintainers-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Component: Maintainers Image Content - Target: All Devices */
+.maintainers-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+/* Component: Maintainers Text - Target: All Devices */
+.maintainers-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+/* Component: Maintainers Info - Target: All Devices */
+.maintainers-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+/* Component: Maintainer and Contributor Blocks - Target: All Devices */
+.maintainer-block,
+.contributor-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+/* Component: Maintainer and Contributor Titles - Target: All Devices */
+.maintainer-title,
+.contributor-title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: left;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+/* Component: Maintainer and Contributor Descriptions - Target: All Devices */
+.maintainer-description,
+.contributor-description {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Component: Maintainers Button - Target: All Devices */
+.maintainers-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 3rem;
+  border-radius: 64px;
+  background: var(--color-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+}
+
+/* Component: Maintainers Button Hover - Target: All Devices */
+.maintainers-btn:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .hero-section {
+    padding: calc(8.75rem + var(--navbar-height-tablet)) 2rem 12.5rem;
+  }
+
+  .hero-copy {
+    margin-top: 100px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .section-divider {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: calc(7.5rem + var(--navbar-height-mobile)) 1.5rem 5rem;
+  }
+
+  .hero-copy {
+    margin-top: 100px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .hero-description {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+    letter-spacing: -0.18px;
+  }
+
+  .hero-btn {
+    padding: 0.875rem 2rem;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .about-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .maintainers-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .section-divider {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .about-section {
+    padding: 10rem 15rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .about-mockup {
+    width: 450px;
+    height: 394px;
+  }
+
+  .about-text {
+    width: 796px;
+  }
+
+  .about-title {
+    font-size: 42px;
+  }
+
+  .maintainers-section {
+    padding: 10rem 15rem;
+    gap: 80px;
+  }
+
+  .maintainers-content {
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .maintainers-img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .maintainers-text {
+    width: 590px;
+  }
+}

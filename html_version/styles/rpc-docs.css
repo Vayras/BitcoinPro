@@ -1,0 +1,147 @@
+/* RPC Docs Page Specific Styles */
+
+.rpc-docs-section {
+  display: flex;
+  padding: calc(6.25rem + var(--navbar-height-desktop)) 15rem 10rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  align-self: stretch;
+  background: var(--color-background);
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.rpc-docs-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  align-self: stretch;
+}
+
+.rpc-docs-copy {
+  display: flex;
+  width: 100%;
+  max-width: 796px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+.h4-bold {
+  align-self: stretch;
+  color: #F5F5F5;
+  font-family: var(--font-primary);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.084px;
+  text-align: left;
+}
+
+.body-1-medium {
+  align-self: stretch;
+  color: #C2C2C2;
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.rpc-versions-system {
+  display: flex;
+  width: 100%;
+  max-width: 786px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.rpc-versions-system a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.version-item {
+  color: #F5F5F5;
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: -0.18px;
+  text-decoration-line: underline;
+  align-self: stretch;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.version-item:hover {
+  text-decoration-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .rpc-docs-section {
+    padding: calc(5rem + var(--navbar-height-tablet)) 4rem 7.5rem;
+    gap: 48px;
+  }
+
+  .rpc-docs-copy {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .rpc-versions-system {
+    width: 100%;
+    max-width: 600px;
+    gap: 6px;
+  }
+
+  .h4-bold {
+    font-size: 36px;
+    line-height: 50.4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .rpc-docs-section {
+    padding: calc(5rem + var(--navbar-height-mobile)) 1.5rem 5rem;
+    gap: 32px;
+  }
+
+  .rpc-docs-copy {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .rpc-versions-system {
+    width: 100%;
+    gap: 4px;
+  }
+
+  .h4-bold {
+    font-size: 28px;
+    line-height: 39.2px;
+  }
+
+  .body-1-medium {
+    font-size: 16px;
+    line-height: 28.8px;
+  }
+
+  .version-item {
+    font-size: 16px;
+    line-height: 28.8px;
+    padding: 0.1875rem 0;
+    text-underline-offset: 3px;
+  }
+}

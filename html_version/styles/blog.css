@@ -1,0 +1,120 @@
+/* Blog Page Specific Styles */
+
+.blog-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: calc(6rem + var(--navbar-height-desktop)) 2rem 4rem;
+  box-sizing: border-box;
+}
+
+.blog-list-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 48px;
+}
+
+.blog-component {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all var(--transition-normal);
+  cursor: pointer;
+}
+
+.blog-component:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-4px);
+}
+
+.blog-component h2 {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.blog-component .caption {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.blog-component .body {
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.caption-medium {
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.margin-container {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .blog-page-container {
+    padding: calc(5rem + var(--navbar-height-tablet)) 2rem 4rem;
+  }
+
+  .blog-list-section {
+    gap: 32px;
+  }
+
+  .blog-component {
+    padding: 24px;
+  }
+
+  .blog-component h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-page-container {
+    padding: calc(5rem + var(--navbar-height-mobile)) 1.5rem 3rem;
+  }
+
+  .blog-list-section {
+    gap: 24px;
+  }
+
+  .blog-component {
+    padding: 20px;
+  }
+
+  .blog-component h2 {
+    font-size: 22px;
+  }
+
+  .blog-component .body {
+    font-size: 15px;
+  }
+}

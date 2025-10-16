@@ -2430,7 +2430,7 @@ text-underline-position: from-font;
 @media (max-width: 1024px) {
   .contact-hero-section {
     display: flex;
-    padding: calc(var(--Spacing-Section-M, 80px) + var(--navbar-height-tablet)) 4rem var(--Spacing-Section-S, 80px) 4rem;
+    padding: calc(var(--Spacing-Section-M, 80px) + var(--navbar-height-tablet)) 4rem var(--Spacing-Section-S, 80px) 2rem;
     flex-direction: column;
     align-items: flex-start;
     gap: var(--Spacing-XL2, 72px);
