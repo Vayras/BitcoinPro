@@ -10,7 +10,7 @@ export default function Contact() {
       
       {/* Contact Hero Section */}
       <section className="contact-hero-section">
-        <div className="contact-hero-image">
+        <div className="contact-hero-imaage">
           <Image 
             src="/images/send-icon.svg" 
             alt="Send icon" 

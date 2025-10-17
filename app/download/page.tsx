@@ -138,11 +138,7 @@ export default function Download() {
             <li>macOS verification guide</li>
             <li>Linux verification guide</li>
             <li>Snap package verification guide</li>
-          </ul>
-
-          <h2 className="verification-title"  style={{marginTop: "50px"}}>Release History</h2>
-       
-          
+          </ul>     
           <h2 className="verification-title"  style={{marginTop: "50px"}}>Additional Verification with Reproducible Builds</h2>
           <p className="verification-description">
             Advanced users can also take advantage of BitcoinPro's reproducible build process and signed

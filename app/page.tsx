@@ -50,7 +50,8 @@ export default function Home() {
       </section>
 
 
-           <div className="section-divider" />
+   
+          <div className="section-divider" />
       {/* Maintainers Section */}
       <section className="maintainers-section">
         

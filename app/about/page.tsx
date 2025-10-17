@@ -52,6 +52,8 @@ export default function About() {
           </div>
       </section>
 
+      <div className="section-divider" />
+
       {/* How You Can Help Section */}
       <section className="maintainers-section">
         <div className="maintainers-content">
