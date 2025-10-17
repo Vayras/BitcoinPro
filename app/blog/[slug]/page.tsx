@@ -88,7 +88,7 @@ export default function BlogPost() {
         {/* Main Article Content */}
         <div className='article-content-section'>
           <div className='article-content'>
-            <div className='paragraph'>
+            <div className='paragraph'> 
               <h3 className='h4-bold'>Why Full Nodes Matter</h3>
               <p className='body-1-medium'>
                 In an era where financial systems are increasingly opaque and centralized, running a Bitcoin full node is one of the most powerful steps you can take to reclaim control over your money. While many people associate Bitcoin ownership with simply holding coins on an exchange or in a mobile wallet, the real foundation of Bitcoin's credibility lies in independent verification. Full nodes make this possible.
@@ -136,8 +136,9 @@ export default function BlogPost() {
               </p>
             </div>
           </div>
-          
-             
+
+          {/* Divider between Share and Related Posts */}
+          <div className='divider'></div>
 
           {/* Related Posts Section */}
           <div className='related-posts-section'>
