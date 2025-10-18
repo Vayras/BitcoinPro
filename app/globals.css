@@ -538,7 +538,7 @@ box-sizing: border-box;
   .hero-section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding: calc(8.75rem + var(--navbar-height-tablet)) 2rem 12.5rem;
     width: 100%;
     min-height: 100vh;
@@ -553,7 +553,7 @@ box-sizing: border-box;
   .hero-content {
     width: 100%;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 2rem;
     gap: 32px;
   }
 
@@ -770,8 +770,8 @@ box-sizing: border-box;
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
-    max-width: 738px;
-    margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 1rem;
   }
 
   .about-text {
@@ -992,8 +992,8 @@ box-sizing: border-box;
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
-    max-width: 738px;
-    margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 1rem;
   }
 
   .maintainers-image {

@@ -65,7 +65,7 @@
 
 .article-content {
   width: 100%;
-  max-width: 794px;
+
   display: flex;
   flex-direction: column;
   gap: var(--Spacing-Section-M, 120px);
@@ -315,6 +315,7 @@
   
   .share-buttons {
     gap: var(--Spacing-M1, 16px);
+    justify-content: flex-start;
   }
   
   .related-posts-container {
@@ -396,6 +397,7 @@
   
   .share-buttons {
     gap: var(--Spacing-S2, 12px);
+    justify-content: flex-start;
   }
   
   .share-button {
