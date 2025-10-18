@@ -2444,13 +2444,13 @@ text-underline-position: from-font;
   }
 
   .contact-hero-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   .contact-hero-content {
     text-align: left;
-    max-width: 600px;
+    max-width: 1440px;
   }
 
   .contact-hero-content h1 {
