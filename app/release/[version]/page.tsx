@@ -90,7 +90,7 @@ export default function ReleaseDetails() {
       
       <div className="release-details-container">
         {/* Title Section */}
-        <section className="release-title-section">
+        <section className="rpc-docs-section">
           <div className="release-title-content">
             <div className="release-copy">
               <h1 className="release-title">{release.title}</h1>
