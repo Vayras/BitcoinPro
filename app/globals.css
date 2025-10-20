@@ -548,13 +548,15 @@ box-sizing: border-box;
   .hero-copy{
     margin-top: 100px;
     align-items: flex-start;
+    max-width: 100%;
+ 
   }
 
   .hero-content {
     width: 100%;
-    max-width: 700px;
-    margin: 0 2rem;
+    padding: 0 2rem;
     gap: 32px;
+    max-width: 1050px;
   }
 
   .hero-title {
@@ -586,7 +588,6 @@ box-sizing: border-box;
 
   .hero-content {
     width: 100%;
-    max-width: 600px;
     margin: 0 auto;
     gap: 24px;
   }
@@ -607,7 +608,7 @@ box-sizing: border-box;
 
 /* Component: Hero Section - Target: Mobile */
 /* Component: Hero and Download Sections - Target: Mobile */
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .hero-section {
     justify-content: flex-start;
     align-items: flex-start;
@@ -625,6 +626,7 @@ box-sizing: border-box;
   .hero-content {
     width: 100%;
     gap: 32px;
+    
   }
 
   .hero-title {
@@ -655,7 +657,7 @@ box-sizing: border-box;
 
 
 /* Component: About Section - Target: Mobile */
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .about-section {
     padding: 3rem 1.5rem;
   }
@@ -784,7 +786,7 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    max-width: 738px;
+    max-width: 1000px;
   }
 
   .about-title {
@@ -993,6 +995,7 @@ box-sizing: border-box;
     align-items: flex-start;
     gap: 80px;
     max-width: 1440px;
+    width: 100%;
     margin: 0 1rem;
   }
 
@@ -1017,7 +1020,7 @@ box-sizing: border-box;
   .maintainers-text {
     align-items: flex-start;
     text-align: left;
-    max-width: 738px;
+    max-width: 1000px;
   }
 
   .maintainers-info {
@@ -1837,7 +1840,7 @@ box-sizing: border-box;
 }
 
 /* Component: Download Section - Target: Mobile */
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .download-section {
     margin-top: var(--navbar-height-mobile);
     padding: 4rem 0;
@@ -2125,7 +2128,7 @@ text-underline-position: from-font;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .hero-section {
     min-height: 60vh;
     padding: 3rem 0;
@@ -2260,7 +2263,7 @@ text-underline-position: from-font;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .navbar {
     padding: 0;
   }
@@ -2605,7 +2608,7 @@ text-underline-position: from-font;
 /* Component: RPC Docs Section - Target: Tablet */
 @media (max-width: 1024px) {
   .rpc-docs-section {
-    padding: calc(5rem + var(--navbar-height-tablet)) 4rem 7.5rem;
+    padding: 10rem 2rem;
     gap: 48px;
   }
   
